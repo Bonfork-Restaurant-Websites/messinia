@@ -1,0 +1,125 @@
+header {
+  height             : 0;
+  background-position: 50% -80px;
+}
+
+nav {
+  background: #00355f;
+}
+
+/* menu section */
+
+.menu h1 {
+  color      : #484850;
+  font-size  : 72px;
+  line-height: 86px;
+  font-weight: 400;
+  max-width  : 423px;
+  font-family: "Playfair Display", serif;
+  margin     : 0 auto;
+}
+
+.menu .item {
+  opacity    : 0.6;
+  font-size  : 18px;
+  font-weight: 700;
+  line-height: 32px;
+  color      : #000 !important;
+}
+
+.menu .price {
+  opacity    : 0.6;
+  font-family: "Playfair Display", serif;
+  font-size  : 24px;
+  font-weight: 400;
+  line-height: 32px;
+  color      : #000 !important;
+}
+
+.menu .item-description {
+  opacity    : 0.6;
+  font-size  : 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color      : #000 !important;
+}
+
+.menu .item-description::after {
+  content       : "";
+  display       : block;
+  margin-top    : 22px;
+  width         : 100%;
+  height        : 0.5px;
+  mix-blend-mode: normal;
+  opacity       : 0.56;
+  border-bottom : 1px dashed #979797;
+}
+
+.menu .carousel-indicators li {
+  text-indent: 0;
+  border     : none;
+  opacity    : 1;
+}
+
+.menu .btn-secondary {
+  color         : #8e8e93;
+  font-size     : 14px;
+  font-weight   : 700;
+  letter-spacing: 3px;
+  background    : transparent !important;
+  border        : none;
+}
+
+.menu .btn:hover {
+  background-color: white;
+  color           : #66869f !important;
+}
+
+.menu li.active .btn-secondary {
+  color: #66869f;
+}
+
+.menu .nav-link.active,
+.menu .show>.nav-link {
+  z-index           : 21;
+  background-color  : transparent !important;
+  border            : 1px solid #00355f;
+  color             : #00355f !important;
+  font-size         : 12px;
+  font-weight       : 700;
+  letter-spacing    : 2px;
+  box-sizing        : border-box;
+  border-radius     : 4px;
+  line-height       : 28px;
+  opacity           : 0;
+  transform         : translateY(100px);
+  transform         : translateY(100px);
+  -webkit-transition: all 0.15s linear;
+  -moz-transition   : all 0.15s linear;
+  transition        : all 0.15s linear;
+}
+
+.menu .nav-link.active:hover {
+  color           : white !important;
+  background-color: #00355f !important;
+
+}
+
+.menu .nav-link.active.show {
+  opacity  : 1;
+  transform: translateY(0);
+
+}
+
+.menu .btn-secondary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: none !important;
+}
+
+.menu .btn-secondary:focus{
+  box-shadow: none !important;
+}
+
+#carouselMenu{
+  position: relative;
+  z-index: 1050;
+}

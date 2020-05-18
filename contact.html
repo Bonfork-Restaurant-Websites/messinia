@@ -1,0 +1,398 @@
+<!--
+ ____   __   __ _  ____  __  ____  __ _
+(  _ \ /  \ (  ( \(  __)/  \(  _ \(  / )
+ ) _ ((  O )/    / ) _)(  O ))   / )  (
+(____/ \__/ \_)__)(__)  \__/(__\_)(__\_)
+-->
+<html>
+
+<head>
+  <title>Contact - Messinia Restaurant</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="A demo website for the Messinia Restaurant Template" />
+  <meta name="keywords" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://messinia.bonfork.net/contact" />
+  <meta property="og:title" content="Messinia Restaurant" />
+  <meta property="og:image" content="" />
+  <meta property="og:description" content="A demo website for the Messinia Restaurant Template" />
+  <meta name="format-detection" content="telephone=no" />
+
+  <!-- favicon and apple-touch-icon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png" />
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- face fonts -->
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Red+Hat+Display:400,500,700&display=swap" rel="stylesheet">
+  <!-- bootstrap stylesheet file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- libraries needed to pick the time -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.6/css/intlTelInput.css">
+  <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/timepicker@1.13.0/jquery.timepicker.min.css">
+
+  <!-- for the loading spinner -->
+  <link rel="stylesheet" href="css/animsition.min.css">
+
+  <!-- main stylesheet file -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <script id="data" type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Restaurant",
+        "priceRange": "$",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Toronto",
+          "addressRegion": "ON",
+          "addressCountry": "Canada",
+          "postalCode": "M5E 1Z9",
+          "streetAddress": "12 Yonge St."
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 43.643162,
+            "longitude": -79.376259
+        },
+        "name": "Messinia Restaurant",
+        "telephone": "+44 (0)1234 56789",
+        "url": "https://messinia.bonfork.net",
+        "paymentAccepted": "",
+        "description": "Messinia Restaurant Demo description. Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam id urna egestas ultricies nulla at viverra nibh donec sollicitudin metus sit amet est laoreet gravida donec cursus enim quis.",
+      
+        "servesCuisine": "French cuisine",
+        "hasMenu": "https://messinia.bonfork.net/menu",
+        "acceptsReservations": "True",
+
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "13:00",
+                "closes": "23:00",
+                "is_open": true
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Saturday",
+                    "Sunday"
+                ],
+                "is_open": false
+            }
+        ]
+      }
+  </script>
+  <script src="js/date-time-picker.js"></script>
+
+</head>
+
+<body>
+  <div class="p-0 m-0 animsition">
+    <header class=" w-100  text-white position-relative mb-5">
+      <nav class="navbar d-flex justify-content-between py-3 py-md-5">
+        <div class="container">
+          <a href="index.html" title="Go to Home Page" class="navbar-brand w-auto h-auto d-flex justify-content-center align-items-center p-0">MESSINIA</a>
+          <ul class="  nav nav-pills d-none d-md-flex  justify-content-center align-items-center ">
+            <li class="nav-item d-flex justify-content-center align-items-center">
+              <a href="about.html" title="What about us!" class="nav-link left-to-right position-relative"> About</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center align-items-center">
+              <a href="menu.html" class="nav-link left-to-right position-relative" title="Check our menu!">menu</a>
+            </li>
+            <li class="nav-item d-flex justify-content-center align-items-center">
+              <a href="contact.html" class="nav-link left-to-right position-relative current" title="Contact us!">contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#reservation" class="nav-link active text-center px-4">
+                <span class="px-2">
+                  BOOK TABLE
+                </span>
+              </a>
+            </li>
+          </ul>
+          <div class="menu-icon d-flex justify-content-center align-items-center d-md-none position-relative overflow-hidden">
+            <a href="#" class="d-visible" title="Open!">
+              <span class="navbar-toggler-bar top-bar mx-0 position-relative"></span>
+              <span class="navbar-toggler-bar bottom-bar mx-0 position-relative"></span>
+            </a>
+            <a href="#" class="d-none" title="Close!">
+              <span class="navbar-toggler-bar top-close mx-0 position-relative"></span>
+              <span class="navbar-toggler-bar middle-close mx-0 position-relative"></span>
+              <span class="navbar-toggler-bar bottom-close mx-0 position-relative"></span>
+            </a>
+          </div>
+          <div class="navbar-collapse  position-fixed ">
+            <div class="bg-img position-absolute">
+
+            </div>
+            <ul class="position-relative">
+              <li class="nav-item d-flex justify-content-start align-items-center ">
+                <a href="about.html" class="nav-link  " id="firstLink" title="What about us!"> About</a>
+              </li>
+              <li class="nav-item d-flex justify-content-start align-items-center ">
+                <a href="menu.html" class="nav-link" id="secondLink" title="Check our menu!">menu</a>
+              </li>
+              <li class="nav-item d-flex justify-content-start align-items-center ">
+                <a href="contact.html" class="nav-link" id="thirdLink" title="Contact us!">contacts</a>
+              </li>
+              <li class="nav-item d-flex justify-content-start align-items-center ">
+                <a href="#reservation" id="forthLink" class="nav-link" title="Book a table!">RESERVATIONS</a>
+              </li>
+            </ul>
+
+            <a href="#" class="logo-button d-flex justify-content-center position-relative"></a>
+            <ul class="nav nav-pills scoial-net d-flex justify-content-center align-items-center p-0 position-static">
+              <li class="nav-item">
+                <a title="Follow Us" href="https://www.instagram.com" class="nav-link py-0 px-2 position-relative ">
+                </a>
+              </li>
+              <li class="nav-item">
+                <a title="Follow Us" href="https://www.facebook.com" class="nav-link py-0 px-2 position-relative"></a>
+              </li>
+              <li class="nav-item">
+                <a title="Follow Us" href="https://twitter.com" class="nav-link py-0 px-2 position-relative"></a>
+              </li>
+            </ul>
+
+            <div class="info text-center mx-auto px-4 mb-5 position-relative ">
+              12 Yonge St, TORONTO ON -
+              <a title="Call Us" href="tel:+4169822901">(416) 982-2901</a>
+            </div>
+
+          </div>
+        </div>
+      </nav>
+
+    </header>
+
+    <section class="down-header w-100 h-auto bg-white pt-5">
+      <div class="content h-auto mx-auto text-center px-2 editable">
+        <h1 class="text-center text-uppercase px-1 mx-auto mb-5 pb-2">
+          contact
+        </h1>
+        <p>
+          A hidden gem nested in the friendly neighbourhood of Danforth offering authentic Greek food since 1974
+        </p>
+      </div>
+    </section>
+
+    <section class="description information">
+      <div class="container">
+        <div class="row h-auto justify-content-md-center">
+          <div class="col-12 d-flex justify-content-center justify-content-lg-end col-lg-auto img-left  pr-lg-4">
+            <img src="images/view-from-above.jpg" class="rellax img-fluid" data-rellax-speed="0.8" alt="A table from above!">
+          </div>
+          <div class="col-12  col-lg-5 p-0 pl-lg-4 justify-content-center justify-content-lg-start mt-lg-0 mt-5 pl-lg-4 ml-lg-3 ">
+            <h2 class="h-auto px-2 px-lg-0 mx-auto ml-lg-0  mt-lg-5 text-center text-lg-left">
+              Where to find us
+            </h2>
+            <div class="content-description  px-4 px-lg-0 text-lg-left text-center  mx-auto ml-lg-0 pt-5">
+              <b>Address:</b>
+              <br>
+              <br> 12 Yonge St
+              <br> Toronto, ON
+              <br> M5E 1Z9
+              <br>
+              <br> Tel:
+              <a title="Call Us" href="tel:+4169822901">(416) 982-2901
+              </a>
+              <br>
+              <br> Email:
+              <a title="Email Us" href="mailto:hello@messiniarestaurant.com">hello@messiniarestaurant.com</a>
+              <br>
+              <br>
+
+              <div id="opening-times" class="">
+              </div>
+
+              <br>
+              <br> There’s street parking between 9:00 am and 10:00 pm.
+
+            </div>
+            <a title="" href="#reservation" class="btn d-table text-white px-4 mt-5 ml-lg-0 mx-auto" data-original-title="Book a table!">
+              <span class="px-2">
+                BOOK TABLE
+              </span>
+
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="w-100 position-fixed" id="reservation">
+      <h2 class="text-center px-2">
+        Reserve your
+        <span>Experience</span>
+      </h2>
+      <div class="sms-form text-center mx-auto ">
+
+      </div>
+      <form method="post" class="ml-auto mr-auto px-2" id="reserve-form">
+
+        <label for="guest">NO. of guests</label>
+        <input type="number" class="form-control mb-3" id="guest" name="guests" value="2" required>
+        <div class="form-row m-0 mt-1  w-100 d-flex justify-content-between ">
+          <div class="form-group col-sm-6 p-0 pr-sm-3">
+            <label for="time" class="">time</label>
+            <input type="text" name="Time" id="time" class="form-control" value="19:30" required>
+
+          </div>
+          <div class="form-group col-sm-6 p-0 pl-sm-1">
+            <label for="date" class="">date</label>
+            <input type="text" name="Date" class="form-control" id="date" placeholder="Please Select" required>
+          </div>
+        </div>
+        <div class="form-group mt-1">
+          <label for="name">name</label>
+          <input type="text" class="form-control" id="name" name="name" required minlength="5">
+        </div>
+        <div class="form-group mt-1 mb-0">
+          <label for="email">email</label>
+          <input type="text" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group mt-1 mb-0">
+          <label for="number">PHONE NUMBER</label>
+          <br>
+          <input type="tel" name="phone" id="phone" class="form-control" required>
+        </div>
+        <input type="submit" class="btn text-white w-100 mt-5" value="RESERVE">
+      </form>
+
+      <a title="Reload" href="" class="logo-button"></a>
+
+      <ul class="nav nav-pills scoial-net d-flex justify-content-center align-items-center">
+        <li class="nav-item">
+          <a href="https://www.instagram.com/bonfork/" title="Follow Us" class="nav-link py-0 px-2  ">
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.facebook.com/bonfork/" title="Follow Us" class="nav-link py-0 px-2 "></a>
+        </li>
+        <li class="nav-item">
+          <a href="https://twitter.com/_Bonfork_" title="Follow Us" class="nav-link py-0 px-2"></a>
+        </li>
+      </ul>
+
+      <div class="info text-center mx-3 mx-sm-auto px-2 ">
+        12 Yonge St, TORONTO ON -
+        <a title="Call Us" href="tel:+4169822901">(416) 982-2901</a>
+      </div>
+
+      <div class="term-privacy text-center mx-3 mx-sm-auto px-2  ">
+        <a title="Click here!" href="terms&privacy.html">Terms and Privacy</a> and other goodies usually goes in here. Site by
+        <a title="Check us out!" href="https://bonfork.com/">Bonfork</a>
+      </div>
+
+      <div class="separator text-center "></div>
+
+    </footer>
+
+  </div>
+  <!-- jquery framework-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <!-- bootstrap js-->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/animsition.min.js"></script>
+  <!-- for picking the time -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/12.1.6/js/intlTelInput.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/timepicker@1.13.0/jquery.timepicker.min.js"></script>
+
+  <!-- slide up animation for the section-->
+  <script src="js/jquery.waypoints.min.js"></script>
+  <!-- rellax effect for img-->
+  <script src="js/rellax.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <!-- main js file -->
+  <script src="js/script.js"></script>
+  <script>
+
+    $(document).ready(function () {
+      function tConvert(time) {
+        time = time.toString().match(/^([01]\d|2[0-3])(:)([0-5]\d)(:[0-5]\d)?$/) || [time];
+        if (time.length > 1) {
+          time = time.slice(1);
+          time[5] = +time[0] < 12 ? 'am' : 'pm';
+          time[0] = +time[0] % 12 || 12;
+        }
+        return time.join('');
+      }
+
+      var data = JSON.parse($('#data').html());
+
+      var today = new Date();
+
+      var weekday = new Array(7);
+      weekday[0] = "Sunday";
+      weekday[1] = "Monday";
+      weekday[2] = "Tuesday";
+      weekday[3] = "Wednesday";
+      weekday[4] = "Thursday";
+      weekday[5] = "Friday";
+      weekday[6] = "Saturday";
+
+      data.openingHoursSpecification.map(openingsItem => {
+        openingsItem.dayOfWeek.map(day => {
+          var item = document.createElement('div');
+          item.setAttribute('class', 'item row no-gutter');
+
+          var dayHeading = document.createElement('h6');
+          dayHeading.setAttribute('class', 'col-6');
+          var day = document.createTextNode(day);
+          dayHeading.appendChild(day);
+
+          var hourHeading = document.createElement('h6');
+          hourHeading.setAttribute('class', 'col-6 text-right');
+
+          if (openingsItem.is_open) {
+            var openHours = document.createTextNode(tConvert(openingsItem.opens) + ' - ');
+            var closeHours = document.createTextNode(tConvert(openingsItem.closes));
+            hourHeading.appendChild(openHours);
+            hourHeading.appendChild(closeHours);
+          } else {
+            var closed = document.createTextNode('Closed');
+            hourHeading.appendChild(closed);
+          }
+
+          item.appendChild(dayHeading);
+          item.appendChild(hourHeading);
+
+          document.getElementById('opening-times').appendChild(item);
+        })
+      });
+    });
+  </script>
+</body>
+
+</html>

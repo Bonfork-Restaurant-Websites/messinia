@@ -1,0 +1,39 @@
+header {
+    height             : 0;
+    background-position: 50% -80px;
+}
+
+nav {
+    background: #00355f;
+}
+
+/* contact section */
+
+.down-header h1 {
+    color      : #484850;
+    font-size  : 72px;
+    line-height: 86px;
+    font-weight: 400;
+    max-width  : 423px;
+    font-family: "Playfair Display", serif;
+    margin     : 0 auto;
+}
+
+/* information section */
+
+.information {
+    margin-bottom: 123.16vh;
+}
+
+.information h2 {
+    color: #484850;
+}
+
+.information .img-left img {
+    width : 33.125vw;
+    height: 49.72vw;
+}
+
+.information a {
+    color: #00355f;
+}
