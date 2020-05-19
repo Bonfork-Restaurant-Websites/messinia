@@ -39,3 +39,8 @@ nav {
     background-size: cover;
   }
 }
+.alert-success,
+.alert-danger{
+  margin-top: 30px;
+  display: none;
+}

@@ -123,3 +123,8 @@ nav {
   position: relative;
   z-index: 1050;
 }
+.alert-success,
+.alert-danger{
+  margin-top: 30px;
+  display: none;
+}
